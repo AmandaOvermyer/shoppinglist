@@ -1,0 +1,22 @@
+body {
+	width: 350px;
+	margin: 0 auto;
+	padding: 20px;
+	
+}
+
+ul{
+	padding-left: 0;
+}
+
+li {
+	list-style-type: none;
+	line-height: 30px;
+}
+.remove {
+	margin-left: 10px;
+}
+
+.checked {
+	text-decoration: line-through;
+}
