@@ -32,7 +32,6 @@ $(document).ready(function() {
 
 
 	$(".items").on("click", ".remove", function() {
-		console.log(this);
 		$(this).parent().remove();
 		count=count - 1;
 		$('.count').text(count);
