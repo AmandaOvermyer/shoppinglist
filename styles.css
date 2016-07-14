@@ -1,17 +1,23 @@
 body {
-	width: 350px;
+	width: 400px;
 	margin: 0 auto;
-	padding: 20px;
-	
+	padding: 30px;
+	background-color: #7e7e7e;
+	font-family: 'Luckiest Guy', cursive;
 }
 
 ul{
-	padding-left: 0;
+	padding-left: 120px;
 }
 
 li {
 	list-style-type: none;
 	line-height: 30px;
+	font-size: 18px;
+}
+
+h1{
+	margin-left: 60px;
 }
 .remove {
 	margin-left: 10px;
@@ -19,4 +25,20 @@ li {
 
 .checked {
 	text-decoration: line-through;
+}
+
+.delete-checked {
+	display: none;
+	margin: 0 auto;
+	margin-left: 100px;
+}
+
+.newItem {
+	text-align: center;
+	margin-left: 100px;
+}
+
+.addItem{
+	background-color: #378c0e;
+	color: #fff;
 }
